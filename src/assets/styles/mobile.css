@@ -1,6 +1,10 @@
-@media(max-width:1285px) {
+@media(max-width:1285.60px) {
     hmtl {
         font-size: 55%;
+    }
+
+    .home-content h3 {
+        font-size: 2.5rem;
     }
 
     .projects-container {
