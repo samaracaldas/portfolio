@@ -25,3 +25,73 @@ menuIcon.onclick = () => {
     menuIcon.classList.toggle('bx-x');
     navbar.classList.toggle('active');
 }
+
+
+
+ScrollReveal().reveal('.home-img', {
+    origin: 'left',
+    duration: 2000,
+    distance: '20%'
+});
+
+ScrollReveal().reveal('.home-content h1, .home-content h3', {
+    origin: 'top',
+    duration: 2000,
+    distance: '20%'
+});
+
+ScrollReveal().reveal('.home-content p, .social-icons, .btn', {
+    origin: 'bottom',
+    duration: 1000,
+    distance: '20%'
+})
+
+
+ScrollReveal().reveal('.about-content', {
+    origin: 'top',
+    duration: 1000,
+    distance: '20%'
+})
+
+ScrollReveal().reveal('.about-img', {
+    origin: 'bottom',
+    duration: 2000,
+    distance: '20%'
+});
+
+
+ScrollReveal().reveal('.skills .heading', {
+    origin: 'top',
+    duration: 2000,
+    distance: '20%'
+});
+
+ScrollReveal().reveal('.skills-box', {
+    origin: 'bottom',
+    duration: 2000,
+    distance: '20%'
+});
+
+ScrollReveal().reveal('.projects .heading', {
+    origin: 'top',
+    duration: 2000,
+    distance: '20%'
+});
+
+ScrollReveal().reveal('.projects-container', {
+    origin: 'bottom',
+    duration: 2000,
+    distance: '20%'
+});
+
+ScrollReveal().reveal('.footer .copyright', {
+    origin: 'bottom',
+    duration: 2000,
+    distance: '20%'
+});
+
+ScrollReveal().reveal('.footer .social', {
+    origin: 'top',
+    duration: 2000,
+    distance: '20%'
+});
