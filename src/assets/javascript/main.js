@@ -40,8 +40,14 @@ ScrollReveal().reveal('.home-content h1, .home-content h3', {
     distance: '20%'
 });
 
-ScrollReveal().reveal('.home-content p, .social-icons, .btn', {
+ScrollReveal().reveal('.home-content p, .social-icons', {
     origin: 'bottom',
+    duration: 1000,
+    distance: '20%'
+})
+
+ScrollReveal().reveal('.btn', {
+    origin: 'right',
     duration: 1000,
     distance: '20%'
 })
